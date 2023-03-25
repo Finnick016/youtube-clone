@@ -1,0 +1,42 @@
+p{
+    font-family:roboto,arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+@media (max-width:1200px){
+body{
+    font-family:roboto, arial;
+    margin:0px;
+    padding-top:80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(249, 249, 249);
+}
+}
+
+@media (min-width:1200.1px){
+    body{
+        font-family:roboto, arial;
+        margin:0px;
+        padding-top:80px;
+        padding-left: 264px;
+        padding-right: 24px;
+        background-color: rgb(249, 249, 249);
+    }
+    }
+
+@media (min-width:1000){
+    .video-title{
+        font-size:16px;
+        line-height:24px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-author,
+    .video-stats {
+      font-size: 14px;
+    }
+  }
